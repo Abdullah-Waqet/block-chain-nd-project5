@@ -13,6 +13,15 @@ contract StarNotary is ERC721 {
 
     // Implement Task 1 Add a name and symbol properties
     // name: Is a short name to your token
+    
+    function name() public pure returns(string memory) {
+        return "Abdullah";
+    }
+
+    function symbol() public pure returns(string memory){
+        return "Waqet";
+    }
+
     // symbol: Is a short string like 'USD' -> 'American Dollar'
     
 
