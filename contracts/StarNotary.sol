@@ -19,7 +19,7 @@ contract StarNotary is ERC721 {
     }
 
     function symbol() public pure returns(string memory){
-        return "Waqet";
+        return "W";
     }
 
     // symbol: Is a short string like 'USD' -> 'American Dollar'
