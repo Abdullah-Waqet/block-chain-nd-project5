@@ -107,7 +107,7 @@ it("lets 2 users exchange stars", async () => {
 it("lets a user transfer a star", async () => {
   let instance = await StarNotary.deployed();
   let user1 = accounts[1];
-  let user2 = accounts[1];
+  let user2 = accounts[2];
   let tokenId = 9;
   // 1. create a Star with different tokenId
   await instance.createStar("awesome star", tokenId, { from: user1 });
